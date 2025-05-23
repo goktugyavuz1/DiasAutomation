@@ -28,22 +28,27 @@ Dias Mobile Automation, iOS mobil uygulamalar için geliştirilmiş bir otomasyo
 
 
 
-📁 Proje Yapısı
+## 📁 Proje Yapısı
+
+```
 DiasMobileAutomation/
 ├── src/
 │   ├── main/
 │   │   └── java/
 │   │       └── dias/
-│   │           └── mobile/        # PageObject'ler ve utility sınıflar
-│   ├── test/
-│   │   └── java/
-│   │       └── dias/
-│   │           └── mobile/
-│   │               └── automation/ # Step definitions, runners
-│   └── resources/
-│       └── features/               # Cucumber feature dosyaları
+│   │           └── mobile/          # PageObject'ler ve utility sınıflar
+├── test/
+│   └── java/
+│       └── dias/
+│           └── mobile/
+│               └── automation/     # Step definitions, runners
+├── resources/
+│   └── features/                   # Cucumber feature dosyaları
 ├── report/                         # Rapor çıktıları
 ├── pom.xml                         # Maven yapılandırması
+```
+
+
 
 
 
